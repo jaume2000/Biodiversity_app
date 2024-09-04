@@ -13,7 +13,7 @@ function App() {
         <h1 className="text-3xl font-bold">Your Biodiversity Dashboard</h1>
       </header>
 
-      <BiodiversityScore targetScore={82} />
+      <BiodiversityScore targetScore={85} />
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
         <MapSection />
