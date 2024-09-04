@@ -4,7 +4,10 @@ const ColoredMap = () => {
   return (
     <div className="bg-white p-4 rounded-lg shadow-md">
       <h2 className="text-lg font-bold">Biodiversity Map</h2>
-      <div className="map-container h-64 bg-green-300 mt-4"></div>
+      <div 
+        className="map-container h-64 bg-cover bg-center rounded-lg" 
+        style={{ backgroundImage: "url('/heatmap.webp')" }}
+      ></div>
       <div className="mt-4">
         <h3 className="text-md font-semibold">Ranking</h3>
         <ul>
